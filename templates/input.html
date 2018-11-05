@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stock Profit</title>
+    <style>
+        input[type='text']{
+            width: 100%;
+            border: 2px solid #aaaaaa;
+            border-radius: 3px;
+            padding: 15px;
+            transition: .3s;
+            display: block;
+            margin-bottom: 15px;
+            font: .9em/1 'Raleway', sans-serif;
+            color: crimson;
+            font-weight: bold;
+        }
+        input[type='text']:focus{
+            border-color:dodgerblue ;
+            box-shadow: dodgerblue;
+        }
+        .input-form{
+             width: 600px;
+             margin: auto;
+             border-radius: 5px;
+             padding: 20px;
+        }
+        body{
+            background-color: #9cb8b3;
+        }
+        ::placeholder{
+            font: 400 1.3em/1 'Raleway', sans-serif;
+            text-align: left;
+            text-transform: uppercase;
+            word-spacing: 5px;
+            color: rgba(0,0,0,.5);
+
+        }
+        button[type='submit']{
+            width: 200px;
+            margin-left: 150px;
+            padding: 10px;
+            background: darkcyan;
+            font: 300 1.5em/1 'Raleway', sans-serif;
+            border-radius: 10px;
+
+        }
+        button:hover{
+            background: cadetblue;
+        }
+
+        h1 {
+           font: 2.3em 'Raleway', sans-serif;
+           font-weight: bold;
+           color: rgba(0,0,0,.5);
+           text-align: center;
+           text-transform: uppercase;
+           letter-spacing: .5em;
+           width: 100%;
+         }
+    </style>
+</head>
+
+<body>
+<h1>Python Finance Info</h1>
+<form class="input-form" method="post" action="post">
+    <input type="text" name="ticketSymbol" placeholder="Enter the Symbol">
+    <button type="submit">Calculate</button>
+</form>
+</body>
+</html>

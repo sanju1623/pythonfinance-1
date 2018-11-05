@@ -1,0 +1,10 @@
+
+Flask==1.0.2
+python-dateutil==2.6.1
+python-dotenv==0.7.1
+python-editor==1.0.3
+requests==2.18.4
+psycopg2==2.7.3.1
+gunicorn==19.7.1
+
+
