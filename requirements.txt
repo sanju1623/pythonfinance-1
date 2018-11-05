@@ -7,6 +7,6 @@ requests==2.18.4
 psycopg2==2.7.3.1
 gunicorn==19.7.1
 tzlocal==1.5.1
-yahoo-finance==1.4.0
+yahoofinancials 1.3
 
 
